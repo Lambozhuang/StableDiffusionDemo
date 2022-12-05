@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var prompt: String = ""
     var body: some View {
         VStack {
+            TextField("Prompt:", text: $prompt)
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world!233")
         }
         .padding()
     }

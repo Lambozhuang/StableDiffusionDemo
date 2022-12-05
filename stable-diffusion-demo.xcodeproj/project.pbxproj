@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64027507293DB25100FCA462 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64027506293DB25100FCA462 /* ViewModel.swift */; };
+		64027508293DB25100FCA462 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64027506293DB25100FCA462 /* ViewModel.swift */; };
 		6438155A293CCCAB00A1E175 /* stable_diffusion_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381559293CCCAB00A1E175 /* stable_diffusion_demoApp.swift */; };
 		6438155C293CCCAB00A1E175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438155B293CCCAB00A1E175 /* ContentView.swift */; };
 		6438155E293CCCAC00A1E175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6438155D293CCCAC00A1E175 /* Assets.xcassets */; };
 		64381561293CCCAC00A1E175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64381560293CCCAC00A1E175 /* Preview Assets.xcassets */; };
+		64381569293CCD0300A1E175 /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = 64381568293CCD0300A1E175 /* StableDiffusion */; };
+		6438156B293CCD0300A1E175 /* StableDiffusionSample in Frameworks */ = {isa = PBXBuildFile; productRef = 6438156A293CCD0300A1E175 /* StableDiffusionSample */; };
+		6438156D293CCD3700A1E175 /* StableDiffusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438156C293CCD3700A1E175 /* StableDiffusion.swift */; };
+		64381578293CD05400A1E175 /* stable_diffusion_mac_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381577293CD05400A1E175 /* stable_diffusion_mac_demoApp.swift */; };
+		6438157A293CD05400A1E175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381579293CD05400A1E175 /* ContentView.swift */; };
+		6438157C293CD05500A1E175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6438157B293CD05500A1E175 /* Assets.xcassets */; };
+		6438157F293CD05500A1E175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6438157E293CD05500A1E175 /* Preview Assets.xcassets */; };
+		64381585293CD07C00A1E175 /* StableDiffusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438156C293CCD3700A1E175 /* StableDiffusion.swift */; };
+		64381588293CD45B00A1E175 /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = 64381587293CD45B00A1E175 /* StableDiffusion */; };
+		6438158A293CD91900A1E175 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 64381589293CD91900A1E175 /* Resources */; };
+		6438158B293CD92D00A1E175 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 64381589293CD91900A1E175 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64027506293DB25100FCA462 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		64381556293CCCAB00A1E175 /* stable-diffusion-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stable-diffusion-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64381559293CCCAB00A1E175 /* stable_diffusion_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stable_diffusion_demoApp.swift; sourceTree = "<group>"; };
 		6438155B293CCCAB00A1E175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6438155D293CCCAC00A1E175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64381560293CCCAC00A1E175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6438156C293CCD3700A1E175 /* StableDiffusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StableDiffusion.swift; sourceTree = "<group>"; };
+		64381575293CD05400A1E175 /* stable-diffusion-mac-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stable-diffusion-mac-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64381577293CD05400A1E175 /* stable_diffusion_mac_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stable_diffusion_mac_demoApp.swift; sourceTree = "<group>"; };
+		64381579293CD05400A1E175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6438157B293CD05500A1E175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6438157E293CD05500A1E175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64381580293CD05500A1E175 /* stable_diffusion_mac_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stable_diffusion_mac_demo.entitlements; sourceTree = "<group>"; };
+		64381589293CD91900A1E175 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64381569293CCD0300A1E175 /* StableDiffusion in Frameworks */,
+				6438156B293CCD0300A1E175 /* StableDiffusionSample in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381572293CD05400A1E175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381588293CD45B00A1E175 /* StableDiffusion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				64381558293CCCAB00A1E175 /* stable-diffusion-demo */,
+				64381576293CD05400A1E175 /* stable-diffusion-mac-demo */,
+				64381584293CD06C00A1E175 /* Shared */,
+				64381589293CD91900A1E175 /* Resources */,
 				64381557293CCCAB00A1E175 /* Products */,
+				64381586293CD45B00A1E175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				64381556293CCCAB00A1E175 /* stable-diffusion-demo.app */,
+				64381575293CD05400A1E175 /* stable-diffusion-mac-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +104,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64381576293CD05400A1E175 /* stable-diffusion-mac-demo */ = {
+			isa = PBXGroup;
+			children = (
+				64381577293CD05400A1E175 /* stable_diffusion_mac_demoApp.swift */,
+				64381579293CD05400A1E175 /* ContentView.swift */,
+				6438157B293CD05500A1E175 /* Assets.xcassets */,
+				64381580293CD05500A1E175 /* stable_diffusion_mac_demo.entitlements */,
+				6438157D293CD05500A1E175 /* Preview Content */,
+			);
+			path = "stable-diffusion-mac-demo";
+			sourceTree = "<group>";
+		};
+		6438157D293CD05500A1E175 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6438157E293CD05500A1E175 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64381584293CD06C00A1E175 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6438156C293CCD3700A1E175 /* StableDiffusion.swift */,
+				64027506293DB25100FCA462 /* ViewModel.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		64381586293CD45B00A1E175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,8 +156,32 @@
 			dependencies = (
 			);
 			name = "stable-diffusion-demo";
+			packageProductDependencies = (
+				64381568293CCD0300A1E175 /* StableDiffusion */,
+				6438156A293CCD0300A1E175 /* StableDiffusionSample */,
+			);
 			productName = "stable-diffusion-demo";
 			productReference = 64381556293CCCAB00A1E175 /* stable-diffusion-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64381574293CD05400A1E175 /* stable-diffusion-mac-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64381581293CD05500A1E175 /* Build configuration list for PBXNativeTarget "stable-diffusion-mac-demo" */;
+			buildPhases = (
+				64381571293CD05400A1E175 /* Sources */,
+				64381572293CD05400A1E175 /* Frameworks */,
+				64381573293CD05400A1E175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stable-diffusion-mac-demo";
+			packageProductDependencies = (
+				64381587293CD45B00A1E175 /* StableDiffusion */,
+			);
+			productName = "stable-diffusion-mac-demo";
+			productReference = 64381575293CD05400A1E175 /* stable-diffusion-mac-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,6 +197,9 @@
 					64381555293CCCAB00A1E175 = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					64381574293CD05400A1E175 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = 64381551293CCCAB00A1E175 /* Build configuration list for PBXProject "stable-diffusion-demo" */;
@@ -111,11 +211,15 @@
 				Base,
 			);
 			mainGroup = 6438154D293CCCAB00A1E175;
+			packageReferences = (
+				64381567293CCD0300A1E175 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */,
+			);
 			productRefGroup = 64381557293CCCAB00A1E175 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				64381555293CCCAB00A1E175 /* stable-diffusion-demo */,
+				64381574293CD05400A1E175 /* stable-diffusion-mac-demo */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +231,17 @@
 			files = (
 				64381561293CCCAC00A1E175 /* Preview Assets.xcassets in Resources */,
 				6438155E293CCCAC00A1E175 /* Assets.xcassets in Resources */,
+				6438158A293CD91900A1E175 /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381573293CD05400A1E175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6438158B293CD92D00A1E175 /* Resources in Resources */,
+				6438157F293CD05500A1E175 /* Preview Assets.xcassets in Resources */,
+				6438157C293CD05500A1E175 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +254,19 @@
 			files = (
 				6438155C293CCCAB00A1E175 /* ContentView.swift in Sources */,
 				6438155A293CCCAB00A1E175 /* stable_diffusion_demoApp.swift in Sources */,
+				64027507293DB25100FCA462 /* ViewModel.swift in Sources */,
+				6438156D293CCD3700A1E175 /* StableDiffusion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381571293CD05400A1E175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381585293CD07C00A1E175 /* StableDiffusion.swift in Sources */,
+				6438157A293CD05400A1E175 /* ContentView.swift in Sources */,
+				64027508293DB25100FCA462 /* ViewModel.swift in Sources */,
+				64381578293CD05400A1E175 /* stable_diffusion_mac_demoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +324,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -250,6 +379,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -275,6 +405,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +436,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +448,64 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64381582293CD05500A1E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "stable-diffusion-mac-demo/stable_diffusion_mac_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stable-diffusion-mac-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = KH29F8M42T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "world.lambo77.test.stable-diffusion-mac-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64381583293CD05500A1E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "stable-diffusion-mac-demo/stable_diffusion_mac_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stable-diffusion-mac-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = KH29F8M42T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "world.lambo77.test.stable-diffusion-mac-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -338,7 +530,45 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		64381581293CD05500A1E175 /* Build configuration list for PBXNativeTarget "stable-diffusion-mac-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64381582293CD05500A1E175 /* Debug */,
+				64381583293CD05500A1E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64381567293CCD0300A1E175 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/ml-stable-diffusion";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64381568293CCD0300A1E175 /* StableDiffusion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64381567293CCD0300A1E175 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
+			productName = StableDiffusion;
+		};
+		6438156A293CCD0300A1E175 /* StableDiffusionSample */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64381567293CCD0300A1E175 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
+			productName = StableDiffusionSample;
+		};
+		64381587293CD45B00A1E175 /* StableDiffusion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64381567293CCD0300A1E175 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
+			productName = StableDiffusion;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6438154E293CCCAB00A1E175 /* Project object */;
 }
