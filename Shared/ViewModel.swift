@@ -17,7 +17,7 @@ class ViewModel: ObservableObject {
     @Published var progressValue = 0.0
     @Published var notification = ""
     
-    private let stableDiffusion = StableDiffuser()
+    private let stableDiffuser = StableDiffuser()
     
     func generateImage(with prompt: String) async {
         self.progressValue = 0.0
@@ -28,7 +28,7 @@ class ViewModel: ObservableObject {
             return
         }
         do {
-            let generatedImage = try await stableDiffusion.generateImageWithStableDiffusion(prompt: prompt, progressHandler: { progress in
+            let generatedImage = try await stableDiffuser.generateImageWithStableDiffusion(prompt: prompt, progressHandler: { progress in
                 DispatchQueue.main.async {
                     self.progressValue = Double(progress.step) / Double(progress.stepCount)
                     print(self.progressValue)
