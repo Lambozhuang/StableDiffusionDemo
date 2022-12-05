@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  stable-diffusion-mac-demo
+//  StableDiffusionDemo-mac
 //
 //  Created by Lambo77 on 2022/12/4.
 //

@@ -1,6 +1,6 @@
 //
-//  stable_diffusion_demoApp.swift
-//  stable-diffusion-demo
+//  StableDiffusionDemoApp.swift
+//  StableDiffusionDemo
 //
 //  Created by Lambo77 on 2022/12/4.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct stable_diffusion_demoApp: App {
+struct StableDiffusionDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

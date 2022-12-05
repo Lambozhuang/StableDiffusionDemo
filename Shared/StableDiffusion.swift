@@ -1,6 +1,6 @@
 //
 //  StableDiffusion.swift
-//  stable-diffusion-demo
+//  StableDiffusionDemo
 //
 //  Created by Lambo77 on 2022/12/4.
 //

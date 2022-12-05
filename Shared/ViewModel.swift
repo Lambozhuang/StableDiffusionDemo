@@ -1,6 +1,6 @@
 //
 //  ViewModel.swift
-//  stable-diffusion-demo
+//  StableDiffusionDemo
 //
 //  Created by Lambo77 on 2022/12/5.
 //
@@ -20,6 +20,7 @@ class ViewModel: ObservableObject {
     private let stableDiffusion = StableDiffuser()
     
     func generateImage(with prompt: String) async {
+        self.progressValue = 0.0
         self.state = .inProgress
         if prompt == "" {
             self.state = .failed

@@ -1,6 +1,6 @@
 //
-//  stable_diffusion_mac_demoApp.swift
-//  stable-diffusion-mac-demo
+//  StableDiffusionDemo_MacApp.swift
+//  StableDiffusionDemo-mac
 //
 //  Created by Lambo77 on 2022/12/4.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct stable_diffusion_mac_demoApp: App {
+struct StableDiffusionDemo_MacApp: App {
     @StateObject var viewModel = ViewModel()
     var body: some Scene {
         WindowGroup {
