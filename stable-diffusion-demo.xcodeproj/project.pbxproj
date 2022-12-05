@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		64027506293DB25100FCA462 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		64027509293DDF1900FCA462 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64381556293CCCAB00A1E175 /* stable-diffusion-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stable-diffusion-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64381559293CCCAB00A1E175 /* stable_diffusion_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stable_diffusion_demoApp.swift; sourceTree = "<group>"; };
 		6438155B293CCCAB00A1E175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 				64381576293CD05400A1E175 /* stable-diffusion-mac-demo */,
 				64381584293CD06C00A1E175 /* Shared */,
 				64381589293CD91900A1E175 /* Resources */,
+				64027509293DDF1900FCA462 /* README.md */,
 				64381557293CCCAB00A1E175 /* Products */,
 				64381586293CD45B00A1E175 /* Frameworks */,
 			);
