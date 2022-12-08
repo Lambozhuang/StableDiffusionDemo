@@ -16,10 +16,12 @@ class ViewModel: ObservableObject {
     @Published var state: StableDiffusionState = .none
     @Published var progressValue = 0.0
     @Published var notification = ""
+    @Published var timeSpent = 0.0
     
     private let stableDiffuser = StableDiffuser()
     
     func generateImage(with prompt: String) async {
+        self.timeSpent = 0.0
         self.progressValue = 0.0
         self.state = .inProgress
         if prompt == "" {
@@ -27,6 +29,7 @@ class ViewModel: ObservableObject {
             self.notification = "Invalid prompt."
             return
         }
+        let start = CFAbsoluteTimeGetCurrent()
         do {
             let generatedImage = try await stableDiffuser.generateImageWithStableDiffusion(prompt: prompt, progressHandler: { progress in
                 DispatchQueue.main.async {
@@ -35,8 +38,9 @@ class ViewModel: ObservableObject {
                 }
                 return true
             })
+            timeSpent = CFAbsoluteTimeGetCurrent() - start
             self.image = Image(generatedImage!, scale: 1, label: Text("Image"))
-            self.state = .none
+            self.state = .success
         } catch {
             print("Error: \(error)")
             self.notification = "Generating failed. \(error)"

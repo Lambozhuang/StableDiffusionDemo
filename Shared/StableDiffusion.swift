@@ -19,12 +19,13 @@ enum StableDiffusionState {
     case none
     case inProgress
     case failed
+    case success
 }
 
 struct StableDiffuser {
     
     func generateImageWithStableDiffusion(prompt: String, progressHandler: (StableDiffusionPipeline.Progress) -> Bool = { _ in true }) async throws -> CGImage? {
-        guard let resourcesURL = Bundle.main.url(forResource: "Resources", withExtension: nil) else {
+        guard let resourcesURL = Bundle.main.url(forResource: "StableDiffusionResources", withExtension: nil) else {
             throw StableDiffusionError.resourcesNotFound
         }
         guard let pipline = try? StableDiffusionPipeline(resourcesAt: resourcesURL) else {

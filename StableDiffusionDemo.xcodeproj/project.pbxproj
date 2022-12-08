@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64027507293DB25100FCA462 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64027506293DB25100FCA462 /* ViewModel.swift */; };
 		64027508293DB25100FCA462 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64027506293DB25100FCA462 /* ViewModel.swift */; };
 		6438155A293CCCAB00A1E175 /* StableDiffusionDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381559293CCCAB00A1E175 /* StableDiffusionDemoApp.swift */; };
 		6438155C293CCCAB00A1E175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438155B293CCCAB00A1E175 /* ContentView.swift */; };
-		6438155E293CCCAC00A1E175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6438155D293CCCAC00A1E175 /* Assets.xcassets */; };
 		64381561293CCCAC00A1E175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64381560293CCCAC00A1E175 /* Preview Assets.xcassets */; };
 		64381569293CCD0300A1E175 /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = 64381568293CCD0300A1E175 /* StableDiffusion */; };
-		6438156B293CCD0300A1E175 /* StableDiffusionSample in Frameworks */ = {isa = PBXBuildFile; productRef = 6438156A293CCD0300A1E175 /* StableDiffusionSample */; };
-		6438156D293CCD3700A1E175 /* StableDiffusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438156C293CCD3700A1E175 /* StableDiffusion.swift */; };
 		64381578293CD05400A1E175 /* StableDiffusionDemo_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381577293CD05400A1E175 /* StableDiffusionDemo_MacApp.swift */; };
 		6438157A293CD05400A1E175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381579293CD05400A1E175 /* ContentView.swift */; };
 		6438157C293CD05500A1E175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6438157B293CD05500A1E175 /* Assets.xcassets */; };
 		6438157F293CD05500A1E175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6438157E293CD05500A1E175 /* Preview Assets.xcassets */; };
 		64381585293CD07C00A1E175 /* StableDiffusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438156C293CCD3700A1E175 /* StableDiffusion.swift */; };
 		64381588293CD45B00A1E175 /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = 64381587293CD45B00A1E175 /* StableDiffusion */; };
-		6438158A293CD91900A1E175 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 64381589293CD91900A1E175 /* Resources */; };
-		6438158B293CD92D00A1E175 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 64381589293CD91900A1E175 /* Resources */; };
+		6438158B293CD92D00A1E175 /* StableDiffusionResources in Resources */ = {isa = PBXBuildFile; fileRef = 64381589293CD91900A1E175 /* StableDiffusionResources */; };
+		64CDC3AD2941D6980054FD1D /* StableDiffusionResources in Resources */ = {isa = PBXBuildFile; fileRef = 64381589293CD91900A1E175 /* StableDiffusionResources */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		64CDC3AE2941D7060054FD1D /* StableDiffusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6438156C293CCD3700A1E175 /* StableDiffusion.swift */; };
+		64CDC3AF2941D7060054FD1D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64027506293DB25100FCA462 /* ViewModel.swift */; };
+		64CDC3B02941E00D0054FD1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6438157B293CD05500A1E175 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		64381556293CCCAB00A1E175 /* StableDiffusionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StableDiffusionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64381559293CCCAB00A1E175 /* StableDiffusionDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StableDiffusionDemoApp.swift; sourceTree = "<group>"; };
 		6438155B293CCCAB00A1E175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6438155D293CCCAC00A1E175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64381560293CCCAC00A1E175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6438156C293CCD3700A1E175 /* StableDiffusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StableDiffusion.swift; sourceTree = "<group>"; };
 		64381575293CD05400A1E175 /* StableDiffusionDemo-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StableDiffusionDemo-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +39,7 @@
 		6438157B293CD05500A1E175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6438157E293CD05500A1E175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64381580293CD05500A1E175 /* stable_diffusion_mac_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stable_diffusion_mac_demo.entitlements; sourceTree = "<group>"; };
-		64381589293CD91900A1E175 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		64381589293CD91900A1E175 /* StableDiffusionResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StableDiffusionResources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				64381569293CCD0300A1E175 /* StableDiffusion in Frameworks */,
-				6438156B293CCD0300A1E175 /* StableDiffusionSample in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +68,8 @@
 				64381558293CCCAB00A1E175 /* StableDiffusionDemo */,
 				64381576293CD05400A1E175 /* StableDiffusionDemo-mac */,
 				64381584293CD06C00A1E175 /* Shared */,
-				64381589293CD91900A1E175 /* Resources */,
+				6438157B293CD05500A1E175 /* Assets.xcassets */,
+				64381589293CD91900A1E175 /* StableDiffusionResources */,
 				64027509293DDF1900FCA462 /* README.md */,
 				64381557293CCCAB00A1E175 /* Products */,
 				64381586293CD45B00A1E175 /* Frameworks */,
@@ -92,7 +90,6 @@
 			children = (
 				64381559293CCCAB00A1E175 /* StableDiffusionDemoApp.swift */,
 				6438155B293CCCAB00A1E175 /* ContentView.swift */,
-				6438155D293CCCAC00A1E175 /* Assets.xcassets */,
 				6438155F293CCCAC00A1E175 /* Preview Content */,
 			);
 			path = StableDiffusionDemo;
@@ -111,7 +108,6 @@
 			children = (
 				64381577293CD05400A1E175 /* StableDiffusionDemo_MacApp.swift */,
 				64381579293CD05400A1E175 /* ContentView.swift */,
-				6438157B293CD05500A1E175 /* Assets.xcassets */,
 				64381580293CD05500A1E175 /* stable_diffusion_mac_demo.entitlements */,
 				6438157D293CD05500A1E175 /* Preview Content */,
 			);
@@ -160,7 +156,6 @@
 			name = StableDiffusionDemo;
 			packageProductDependencies = (
 				64381568293CCD0300A1E175 /* StableDiffusion */,
-				6438156A293CCD0300A1E175 /* StableDiffusionSample */,
 			);
 			productName = "stable-diffusion-demo";
 			productReference = 64381556293CCCAB00A1E175 /* StableDiffusionDemo.app */;
@@ -231,9 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CDC3AD2941D6980054FD1D /* StableDiffusionResources in Resources */,
 				64381561293CCCAC00A1E175 /* Preview Assets.xcassets in Resources */,
-				6438155E293CCCAC00A1E175 /* Assets.xcassets in Resources */,
-				6438158A293CD91900A1E175 /* Resources in Resources */,
+				64CDC3B02941E00D0054FD1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6438158B293CD92D00A1E175 /* Resources in Resources */,
+				6438158B293CD92D00A1E175 /* StableDiffusionResources in Resources */,
 				6438157F293CD05500A1E175 /* Preview Assets.xcassets in Resources */,
 				6438157C293CD05500A1E175 /* Assets.xcassets in Resources */,
 			);
@@ -254,10 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CDC3AE2941D7060054FD1D /* StableDiffusion.swift in Sources */,
+				64CDC3AF2941D7060054FD1D /* ViewModel.swift in Sources */,
 				6438155C293CCCAB00A1E175 /* ContentView.swift in Sources */,
 				6438155A293CCCAB00A1E175 /* StableDiffusionDemoApp.swift in Sources */,
-				64027507293DB25100FCA462 /* ViewModel.swift in Sources */,
-				6438156D293CCD3700A1E175 /* StableDiffusion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -380,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -407,15 +402,17 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "world.lambo77.test.stable-diffusion-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambo77.StableDiffusionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,15 +435,17 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "world.lambo77.test.stable-diffusion-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambo77.StableDiffusionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +474,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "world.lambo77.test.stable-diffusion-demo-mac";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lambo77.StableDiffusionDemo-mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -505,7 +504,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "world.lambo77.test.stable-diffusion-demo-mac";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lambo77.StableDiffusionDemo-mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -561,11 +560,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 64381567293CCD0300A1E175 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
 			productName = StableDiffusion;
-		};
-		6438156A293CCD0300A1E175 /* StableDiffusionSample */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 64381567293CCD0300A1E175 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
-			productName = StableDiffusionSample;
 		};
 		64381587293CD45B00A1E175 /* StableDiffusion */ = {
 			isa = XCSwiftPackageProductDependency;
